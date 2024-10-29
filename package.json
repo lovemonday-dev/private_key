@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bech32": "^2.0.0",
+    "bitcoinjs-lib": "^7.0.0-rc.0",
+    "elliptic": "^6.5.7",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "web3": "^4.14.0",
+    "wif": "^5.0.0"
+  }
+}
