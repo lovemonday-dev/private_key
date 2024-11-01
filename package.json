@@ -8,5 +8,8 @@
     "ethereumjs-wallet": "^1.0.2",
     "web3": "^4.14.0",
     "wif": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
