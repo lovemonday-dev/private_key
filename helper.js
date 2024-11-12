@@ -26,12 +26,17 @@ function writeOnJsonFile(filename, privateKeyHome, response) {
             if (writeErr) {
                 console.error("Error writing to file:", writeErr);
             } else {
-                console.log("New JSON data has been added.");
+                console.log(privateKeyHome, response);
             }
         });
     });
 }
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 module.exports = {
-    writeOnJsonFile
+    writeOnJsonFile,
+    sleep
 }
