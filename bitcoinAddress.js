@@ -65,7 +65,7 @@ const generateBitcoinAddress = (privateKey) => {
     const p2shAddress = generateP2SHAddress(publicKey.compressed);
     const bechAddress = generateBech32Address(publicKey.compressed);
     const p2pkhAddressUn = generateP2PKHAddress(publicKey.uncompressed);
-    return `${p2pkhAddress}|${p2shAddress}|${bechAddress}|${p2pkhAddressUn}`
+    return `${p2pkhAddress}|${p2shAddress}|${bechAddress}|${p2pkhAddressUn}|`
 }
 
 module.exports = {
